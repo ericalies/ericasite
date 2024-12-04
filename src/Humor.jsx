@@ -3,13 +3,16 @@ import './App.css'
 function Humor() {
     return (
         <>
-            <blockquote><h1><strong>Selected Humor & Satire</strong></h1></blockquote>
+            <blockquote className="montserrat-alternates-regular align-middle"><h1><strong>Selected Humor & Satire</strong></h1></blockquote>
             <div className="mt-10">
             </div>
             <div className="grid gap-x-4 gap-y-[40px] grid-cols-1 md:grid-cols-2">
-                <img className="max-w-sm" src="/src/assets/splits1.png"/>
+            
+            <img className="max-w-sm" src="/src/assets/walrus.jpg"/>
                 <div>
+                {/* <hr className='my-5'></hr> */}
                     <h2>Daily Shouts in <em>The New Yorker</em></h2>
+                    
                     <ul>
                         <li><a href="https://www.newyorker.com/humor/daily-shouts/a-taxonomy-of-migraines"
                                className='styled-link'>A Taxonomy of Migraines</a></li>
@@ -26,8 +29,6 @@ function Humor() {
                             className='styled-link'>Taylor Swift Friendship Bracelets For Beatles Lovers</a> -
                             illustrated by Elly Lonon
                         </li>
-
-
                         <li><a
                             href="https://www.newyorker.com/humor/daily-shouts/dissertations-written-by-someone-who-has-friends-with-kids"
                             className='styled-link'>Dissertations Written by Someone Who Has Friends With Kids</a> -
@@ -39,9 +40,12 @@ function Humor() {
                             Elson
                         </li>
                     </ul>
+                  
                 </div>
-                <img className="max-w-sm" src="/src/assets/splits1.png"/>
+                
+            <img className="max-w-sm" src="/src/assets/wapo.png"/>
                 <div>
+                <hr className='my-5'></hr>
                     <h2>The Washington Post</h2>
                     <ul>
                         <li><a
@@ -49,8 +53,13 @@ function Humor() {
                             className='styled-link'>If Odysseus Had Instagram</a> - illustrated by Elly Lonon
                         </li>
                     </ul>
+                   
                 </div>
+
+            <img className="max-w-sm" src="/src/assets/mcsweeneyslogo.png"/>
+                
                 <div>
+                <hr className='my-5'></hr>
                     <h2>McSweeney's Internet Tendency</h2>
                     <ul>
                         <li><a href="https://www.mcsweeneys.net/articles/if-zeus-had-instagram"
@@ -86,8 +95,13 @@ function Humor() {
 
 
                     </ul>
+                    
                 </div>
+            
+            <img className="max-w-sm" src="/src/assets/belladonna.png"/>
+                
                 <div>
+                <hr className='my-5'></hr>
                     <h2>The Belladonna</h2>
                     <ul>
                         <li><a href="https://thebelladonnacomedy.com/the-house-of-inner-torment-cdd547b2dcac"
@@ -109,18 +123,12 @@ function Humor() {
                             Sound
                             Like 'Squawk Squawk Squawk!'</a></li>
                     </ul>
-                </div>
+                </div>   
+
+            <img className="max-w-sm" src="/src/assets/splitsider.png"/>
+                
                 <div>
-                    <h2>Austin Monthly</h2>
-                    <ul>
-                        <li><a href="https://www.austinmonthly.com/the-20-people-you-always-meet-at-acl-fest/"
-                               className='styled-link'>The 20 People You Always Meet at ACL Fest</a> - written with
-                            Alex
-                            Baia
-                        </li>
-                    </ul>
-                </div>
-                <div>
+                <hr className='my-5'></hr>
                     <h2>Splitsider Humor Section</h2>
                     <ul>
                         <li><a
@@ -134,8 +142,13 @@ function Humor() {
                             From the Future to</a> Destroy John Connor
                         </li>
                     </ul>
+                 
                 </div>
+
+            <img className="max-w-sm" src="/src/assets/PICLogo.png"/>
+               
                 <div>
+                <hr className='my-5'></hr>
                     <h2>Points in Case</h2>
                     <ul>
                         <li><a
@@ -146,23 +159,33 @@ function Humor() {
                             className='styled-link'>Password Recovery Questions Written by Beth, Your High School
                             Frenemy</a></li>
                     </ul>
+                   
                 </div>
+
+                <img className="max-w-sm" src="/src/assets/acl.jpg"/>
+                
                 <div>
+                <hr className='my-5'></hr> 
                     <h2>Misc Faves</h2>
                     <ul>
+                        <li> <a href="https://www.austinmonthly.com/the-20-people-you-always-meet-at-acl-fest/"
+                               className='styled-link'>The 20 People You Always Meet at ACL Fest</a> - Austin Monthly - written with
+                            Alex Baia
+                        </li>
                         <li><a href="https://www.robotbutt.com/2016/12/24/santa-waterboards-enemy-war-christmas/"
-                               className='styled-link'>Santa Waterboards the Enemy in the War on Christmas</a> - run
-                            in
-                            Robot Butt, written with Alex Baia
+                               className='styled-link'>Santa Waterboards the Enemy in the War on Christmas</a> - Robot Butt - written with Alex Baia
                         </li>
                         <li><a
                             href="https://medium.com/slackjaw/this-new-year-will-be-different-ill-be-remade-anew-1fe56bd9d76f"
-                            className='styled-link'>This New Year Will be Different. I'll Remake Myself Anew</a> -
-                            run
-                            in Slackjaw
+                            className='styled-link'>This New Year Will be Different. I'll Remake Myself Anew</a> - Slackjaw - 
+                            
                         </li>
+
+                      
                     </ul>
+                    <hr className='my-10'></hr>
                 </div>
+
             </div>
         </>
     )
