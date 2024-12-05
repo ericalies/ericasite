@@ -3,12 +3,12 @@ import './App.css'
 function Journalism() {
     return (
         <>
-            <blockquote><h1><strong>Journalism</strong></h1></blockquote>
+            <blockquote><h1 className='montserrat-alternates-bold'>Journalism</h1></blockquote>
             <div className="card">
             
             </div>
             <br></br>
-            <h2>Features</h2>
+            <h2>Selected Features</h2>
 
                 <ul>
                     <li><a href="https://www.austinchronicle.com/screens/2020-03-13/revamped-national-lampoon-radio-hour-goes-full-2020/" className='styled-link'>Austin Chronicle</a> - Revamped <i>National Lampoon Hour</i> Goes Full 2020</li>

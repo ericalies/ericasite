@@ -3,12 +3,12 @@ import './App.css'
 function Humor() {
     return (
         <>
-            <blockquote className="montserrat-alternates-regular align-middle"><h1><strong>Selected Humor & Satire</strong></h1></blockquote>
+            <blockquote className="montserrat-alternates-bold align-middle"><h1 className='montserrat-alternates-semibold'>Selected Humor & Satire</h1></blockquote>
             <div className="mt-10">
             </div>
-            <div className="grid gap-x-4 gap-y-[40px] grid-cols-1 md:grid-cols-2">
+            <div className="grid gap-x-8 gap-y-[40px] grid-cols-1 md:grid-cols-[40%_60%]">
             
-            <img className="max-w-sm" src="/src/assets/walrus.jpg"/>
+            <img className="object-scale-down object-right" src="/src/assets/walrus.jpg"/>
                 <div>
                 {/* <hr className='my-5'></hr> */}
                     <h2>Daily Shouts in <em>The New Yorker</em></h2>
@@ -43,9 +43,9 @@ function Humor() {
                   
                 </div>
                 
-            <img className="max-w-sm" src="/src/assets/wapo.png"/>
+            <img className="object-scale-down object-right" src="/src/assets/wapo.png"/>
                 <div>
-                <hr className='my-5'></hr>
+                {/* <hr className='my-5'></hr> */}
                     <h2>The Washington Post</h2>
                     <ul>
                         <li><a
@@ -56,10 +56,11 @@ function Humor() {
                    
                 </div>
 
-            <img className="max-w-sm" src="/src/assets/mcsweeneyslogo.png"/>
+            <img className="object-scale-down object-right" src="/src/assets/mcsweeneyslogo.png"/>
                 
                 <div>
-                <hr className='my-5'></hr>
+                {/* <hr className='my-5'></hr> */}
+
                     <h2>McSweeney's Internet Tendency</h2>
                     <ul>
                         <li><a href="https://www.mcsweeneys.net/articles/if-zeus-had-instagram"
@@ -98,10 +99,10 @@ function Humor() {
                     
                 </div>
             
-            <img className="max-w-sm" src="/src/assets/belladonna.png"/>
+            <img className="object-scale-down object-right" src="/src/assets/belladonna.png"/>
                 
                 <div>
-                <hr className='my-5'></hr>
+                {/* <hr className='my-5'></hr> */}
                     <h2>The Belladonna</h2>
                     <ul>
                         <li><a href="https://thebelladonnacomedy.com/the-house-of-inner-torment-cdd547b2dcac"
@@ -125,10 +126,10 @@ function Humor() {
                     </ul>
                 </div>   
 
-            <img className="max-w-sm" src="/src/assets/splitsider.png"/>
+            <img className="object-scale-down object-right" src="/src/assets/splitsider.png"/>
                 
                 <div>
-                <hr className='my-5'></hr>
+         
                     <h2>Splitsider Humor Section</h2>
                     <ul>
                         <li><a
@@ -145,10 +146,10 @@ function Humor() {
                  
                 </div>
 
-            <img className="max-w-sm" src="/src/assets/PICLogo.png"/>
+            <img className="object-scale-down object-right" src="/src/assets/PICLogo.png"/>
                
                 <div>
-                <hr className='my-5'></hr>
+            
                     <h2>Points in Case</h2>
                     <ul>
                         <li><a
@@ -162,10 +163,10 @@ function Humor() {
                    
                 </div>
 
-                <img className="max-w-sm" src="/src/assets/acl.jpg"/>
+                <img className="object-scale-down object-right" src="/src/assets/acl.jpg"/>
                 
                 <div>
-                <hr className='my-5'></hr> 
+        
                     <h2>Misc Faves</h2>
                     <ul>
                         <li> <a href="https://www.austinmonthly.com/the-20-people-you-always-meet-at-acl-fest/"
@@ -183,7 +184,7 @@ function Humor() {
 
                       
                     </ul>
-                    <hr className='my-10'></hr>
+               
                 </div>
 
             </div>

@@ -5,7 +5,7 @@ function About() {
     return (
         <>
        
-            <blockquote className="montserrat-alternates-black align-middle"><h1><strong>About Erica</strong></h1></blockquote>
+            <blockquote className="align-middle"><h1 className='montserrat-alternates-bold'>About Erica</h1></blockquote>
             <br></br>
             <div className="card">
             <p>Erica Lies is a satirist and journalist whose work has appeared in The New Yorker, The New York Times, Vulture, Bust Magazine, McSweeney's Internet Tendency, the Washington Post, and many more. 
