@@ -39,19 +39,17 @@ body {
     background-color: #d1c2d9;
     font-family: Avenir, sans serif; font-size: 20px;
     margin-left: 10%;
-    margin-right: 10%;
+    margin-right: 5%;
 }
 
 p,
 h1,
 h2,
-h3,
 ul,
 li {
     color: #332970;
     border: 1px #b5a3bc;
-    /* margin-left: 5%;
-    margin-right: 5%; */
+
 }
 
 p {
@@ -77,11 +75,19 @@ h1 {
 }
 
 h2 {
-    /* color: #8b0000; */
     color: #005f56;
-    font-family: Helvetica, sans serif; font-size: 30px;
-    text-decoration: wavy;
+    font-size: 30px;
     
+}
+
+h3 {
+    color: #005f56;
+    font-size: 30px;
+    text-align: center;
+}
+
+ul {
+    margin-left: 20px;
 }
 
 blockquote {
@@ -105,5 +111,5 @@ blockquote {
     color: #332970;
   }
   
-
+ 
   
