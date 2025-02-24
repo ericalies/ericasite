@@ -14,19 +14,19 @@ const router = createBrowserRouter([
         element: <Home/>
     },
     {
-        path: 'about',
+        path: 'about.html',
         element: <About/>
     },
     {
-        path: 'humor',
+        path: 'humor.html',
         element: <Humor/>
     },
     {
-        path: 'journalism',
+        path: 'journalism.html',
         element: <Journalism/>
     },
     {
-        path: 'contact',
+        path: 'contact.html',
         element: <Contact/>
     },
 ])
@@ -86,10 +86,10 @@ function App() {
                     <NavbarToggle/>
                     <NavbarCollapse>
                         <NavbarLink href="/">Home</NavbarLink>
-                        <NavbarLink href="/about">About</NavbarLink>
-                        <NavbarLink href="/humor">Humor</NavbarLink>
-                        <NavbarLink href="/journalism">Journalism</NavbarLink>
-                        <NavbarLink href="/contact">Contact</NavbarLink>
+                        <NavbarLink href="/about.html">About</NavbarLink>
+                        <NavbarLink href="/humor.html">Humor</NavbarLink>
+                        <NavbarLink href="/journalism.html">Journalism</NavbarLink>
+                        <NavbarLink href="/contact.html">Contact</NavbarLink>
                     </NavbarCollapse>
                 </Navbar>
 

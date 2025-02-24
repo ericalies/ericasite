@@ -3,28 +3,31 @@ import './App.css'
 function Humor() {
     return (
         <>
-            <blockquote className="montserrat-alternates-bold align-middle"><h1 className='montserrat-alternates-regular'>Selected Humor & Satire</h1></blockquote>
-            
+            <blockquote className="montserrat-alternates-bold align-middle"><h1
+                className='montserrat-alternates-regular'>Selected Humor & Satire</h1></blockquote>
+
             <div className="mt-10">
             </div>
 
             <div className="grid gap-x-8 gap-y-[40px] grid-cols-1 md:grid-cols-[40%_60%]">
-            
-            <img className="object-scale-down object-right" src="/src/assets/walrus.jpg" 
-            alt="An illustration of a Taylor Swift Bracelet for Beatles lovers. The bracelet text reads, It's me, Hi. I'm the Walrus, it's me."/>
+
+                <img className="object-scale-down object-right" src="/assets/walrus.jpg"
+                     alt="An illustration of a Taylor Swift Bracelet for Beatles lovers. The bracelet text reads, It's me, Hi. I'm the Walrus, it's me."/>
                 <div>
-             
+
                     <h2>Daily Shouts in <em>The New Yorker</em></h2>
-                    
+
                     <ul className='list-disc'>
-                        <li className='leading-loose'><a href="https://www.newyorker.com/humor/daily-shouts/a-taxonomy-of-migraines"
-                               className='styled-link'>A Taxonomy of Migraines</a></li>
+                        <li className='leading-loose'><a
+                            href="https://www.newyorker.com/humor/daily-shouts/a-taxonomy-of-migraines"
+                            className='styled-link'>A Taxonomy of Migraines</a></li>
                         <li className='leading-loose'><a
                             href="https://www.newyorker.com/humor/daily-shouts/welcome-aboard-our-newest-roller-coaster-the-freelancer"
                             className="styled-link">Welcome Aboard Our Newest Roller Coaster, The Freelancer</a>
                         </li>
-                        <li className='leading-loose'><a href="https://www.newyorker.com/humor/daily-shouts/if-ebenezer-scrooge-had-instagram"
-                               className='styled-link'>If Ebenezer Scrooge Had Instagram</a> - illustrated by Elly
+                        <li className='leading-loose'><a
+                            href="https://www.newyorker.com/humor/daily-shouts/if-ebenezer-scrooge-had-instagram"
+                            className='styled-link'>If Ebenezer Scrooge Had Instagram</a> - illustrated by Elly
                             Lonon
                         </li>
                         <li className='leading-loose'><a
@@ -43,12 +46,13 @@ function Humor() {
                             Elson
                         </li>
                     </ul>
-                  
+
                 </div>
-                
-            <img className="object-scale-down object-right" src="/src/assets/wapo.png" alt="The logo of the Washinton Post, rendered in Gothic lettering."/>
+
+                <img className="object-scale-down object-right" src="/assets/wapo.png"
+                     alt="The logo of the Washinton Post, rendered in Gothic lettering."/>
                 <div>
-                {/* <hr className='my-5'></hr> */}
+                    {/* <hr className='my-5'></hr> */}
                     <h2>The Washington Post</h2>
                     <ul className='list-disc'>
                         <li className='leading-loose'><a
@@ -56,24 +60,26 @@ function Humor() {
                             className='styled-link'>If Odysseus Had Instagram</a> - illustrated by Elly Lonon
                         </li>
                     </ul>
-                   
+
                 </div>
 
-            <img className="object-scale-down object-right" src="/src/assets/mcsweeneyslogo.png"
-            alt="the McSweeney's logo, which is an old time-y chair"/>
-                
+                <img className="object-scale-down object-right" src="/assets/mcsweeneyslogo.png"
+                     alt="the McSweeney's logo, which is an old time-y chair"/>
+
                 <div>
-            
+
 
                     <h2>McSweeney's Internet Tendency</h2>
                     <ul className='list-disc'>
-                        <li className='leading-loose'><a href="https://www.mcsweeneys.net/articles/if-zeus-had-instagram"
-                               className='styled-link'>If
+                        <li className='leading-loose'><a
+                            href="https://www.mcsweeneys.net/articles/if-zeus-had-instagram"
+                            className='styled-link'>If
                             Zeus Had Instagram</a> - illustrated by Elly Lonon
                         </li>
 
-                        <li className='leading-loose'><a href="https://www.mcsweeneys.net/articles/faq-your-visit-to-flow-state"
-                               className='styled-link'>FAQ: Your Visit to Flow State</a> - written with Caitlin
+                        <li className='leading-loose'><a
+                            href="https://www.mcsweeneys.net/articles/faq-your-visit-to-flow-state"
+                            className='styled-link'>FAQ: Your Visit to Flow State</a> - written with Caitlin
                             Kunkel
                         </li>
                         <li className='leading-loose'><a
@@ -100,18 +106,19 @@ function Humor() {
 
 
                     </ul>
-                    
+
                 </div>
-            
-            <img className="object-scale-down object-right" src="/src/assets/belladonna.png"
-            alt="the Belladonna logo in whimsical lettering"/>
-                
+
+                <img className="object-scale-down object-right" src="/assets/belladonna.png"
+                     alt="the Belladonna logo in whimsical lettering"/>
+
                 <div>
-               
+
                     <h2>The Belladonna</h2>
                     <ul className='list-disc'>
-                        <li className='leading-loose'><a href="https://thebelladonnacomedy.com/the-house-of-inner-torment-cdd547b2dcac"
-                               className='styled-link'>The House of Inner Torment</a></li>
+                        <li className='leading-loose'><a
+                            href="https://thebelladonnacomedy.com/the-house-of-inner-torment-cdd547b2dcac"
+                            className='styled-link'>The House of Inner Torment</a></li>
                         <li className='leading-loose'><a
                             href="https://thebelladonnacomedy.com/code-red-they-want-to-tax-break-our-tampons-2116c6e786cb"
                             className='styled-link'>Don't Let Greedy Uteri Bleed Tennessee Dry!</a> - written with
@@ -129,13 +136,13 @@ function Humor() {
                             Sound
                             Like 'Squawk Squawk Squawk!'</a></li>
                     </ul>
-                </div>   
+                </div>
 
-            <img className="object-scale-down object-right" src="/src/assets/splitsider.png"
-            alt="the logo of the defunct comedy site, Splitsider"/>
-                
+                <img className="object-scale-down object-right" src="/assets/splitsider.png"
+                     alt="the logo of the defunct comedy site, Splitsider"/>
+
                 <div>
-         
+
                     <h2>Splitsider Humor Section</h2>
                     <ul className='list-disc'>
                         <li className='leading-loose'><a
@@ -149,14 +156,14 @@ function Humor() {
                             From the Future to</a> Destroy John Connor
                         </li>
                     </ul>
-                 
+
                 </div>
 
-            <img className="object-scale-down object-right" src="/src/assets/PICLogo.png"
-            alt="the logo for humor website Points in Case"/>
-               
+                <img className="object-scale-down object-right" src="/assets/PICLogo.png"
+                     alt="the logo for humor website Points in Case"/>
+
                 <div>
-            
+
                     <h2>Points in Case</h2>
                     <ul className='list-disc'>
                         <li className='leading-loose'><a
@@ -167,32 +174,36 @@ function Humor() {
                             className='styled-link'>Password Recovery Questions Written by Beth, Your High School
                             Frenemy</a></li>
                     </ul>
-                   
+
                 </div>
 
-                <img className="object-scale-down object-right" src="/src/assets/acl.jpg" 
-                alt="illustration by James Boyle of the types of people you meet at ACL fest, including the Human Skittle and The Ghost of Stevie Ray Vaughn"/>
-                
+                <img className="object-scale-down object-right" src="/assets/acl.jpg"
+                     alt="illustration by James Boyle of the types of people you meet at ACL fest, including the Human Skittle and The Ghost of Stevie Ray Vaughn"/>
+
                 <div>
-        
+
                     <h2>Misc Faves</h2>
                     <ul className='list-disc'>
-                        <li> <a href="https://www.austinmonthly.com/the-20-people-you-always-meet-at-acl-fest/"
-                               className='styled-link'>The 20 People You Always Meet at ACL Fest</a> - Austin Monthly - written with
+                        <li><a href="https://www.austinmonthly.com/the-20-people-you-always-meet-at-acl-fest/"
+                               className='styled-link'>The 20 People You Always Meet at ACL Fest</a> - Austin Monthly -
+                            written with
                             Alex Baia
                         </li>
-                        <li className='leading-loose'><a href="https://www.robotbutt.com/2016/12/24/santa-waterboards-enemy-war-christmas/"
-                               className='styled-link'>Santa Waterboards the Enemy in the War on Christmas</a> - Robot Butt - written with Alex Baia
+                        <li className='leading-loose'><a
+                            href="https://www.robotbutt.com/2016/12/24/santa-waterboards-enemy-war-christmas/"
+                            className='styled-link'>Santa Waterboards the Enemy in the War on Christmas</a> - Robot Butt
+                            - written with Alex Baia
                         </li>
                         <li className='leading-loose'><a
                             href="https://medium.com/slackjaw/this-new-year-will-be-different-ill-be-remade-anew-1fe56bd9d76f"
-                            className='styled-link'>This New Year Will be Different. I'll Remake Myself Anew</a> - Slackjaw - 
-                            
+                            className='styled-link'>This New Year Will be Different. I'll Remake Myself Anew</a> -
+                            Slackjaw -
+
                         </li>
 
-                      
+
                     </ul>
-               
+
                 </div>
 
             </div>
