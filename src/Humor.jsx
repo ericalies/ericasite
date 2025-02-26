@@ -1,4 +1,11 @@
 import './App.css'
+import aclURL from './assets/ACL.jpg'
+import belladonnaURL from './assets/belladonna.png'
+import mcsweeneysURL from './assets/mcsweeneyslogo.png'
+import picURL from './assets/PICLogo.png'
+import splitsiderURL from './assets/splitsider.png'
+import walrusURL from './assets/walrus.jpg'
+import wapoURL from './assets/wapo.png'
 
 function Humor() {
     return (
@@ -11,7 +18,7 @@ function Humor() {
 
             <div className="grid gap-x-8 gap-y-[40px] grid-cols-1 md:grid-cols-[40%_60%]">
 
-                <img className="object-scale-down object-right" src="/assets/walrus.jpg"
+                <img className="object-scale-down object-right" src={walrusURL}
                      alt="An illustration of a Taylor Swift Bracelet for Beatles lovers. The bracelet text reads, It's me, Hi. I'm the Walrus, it's me."/>
                 <div>
 
@@ -49,7 +56,7 @@ function Humor() {
 
                 </div>
 
-                <img className="object-scale-down object-right" src="/assets/wapo.png"
+                <img className="object-scale-down object-right" src={wapoURL}
                      alt="The logo of the Washinton Post, rendered in Gothic lettering."/>
                 <div>
                     {/* <hr className='my-5'></hr> */}
@@ -63,7 +70,7 @@ function Humor() {
 
                 </div>
 
-                <img className="object-scale-down object-right" src="/assets/mcsweeneyslogo.png"
+                <img className="object-scale-down object-right" src={mcsweeneysURL}
                      alt="the McSweeney's logo, which is an old time-y chair"/>
 
                 <div>
@@ -109,7 +116,7 @@ function Humor() {
 
                 </div>
 
-                <img className="object-scale-down object-right" src="/assets/belladonna.png"
+                <img className="object-scale-down object-right" src={belladonnaURL}
                      alt="the Belladonna logo in whimsical lettering"/>
 
                 <div>
@@ -138,7 +145,7 @@ function Humor() {
                     </ul>
                 </div>
 
-                <img className="object-scale-down object-right" src="/assets/splitsider.png"
+                <img className="object-scale-down object-right" src={splitsiderURL}
                      alt="the logo of the defunct comedy site, Splitsider"/>
 
                 <div>
@@ -159,7 +166,7 @@ function Humor() {
 
                 </div>
 
-                <img className="object-scale-down object-right" src="/assets/PICLogo.png"
+                <img className="object-scale-down object-right" src={picURL}
                      alt="the logo for humor website Points in Case"/>
 
                 <div>
@@ -177,7 +184,7 @@ function Humor() {
 
                 </div>
 
-                <img className="object-scale-down object-right" src="/assets/acl.jpg"
+                <img className="object-scale-down object-right" src={aclURL}
                      alt="illustration by James Boyle of the types of people you meet at ACL fest, including the Human Skittle and The Ghost of Stevie Ray Vaughn"/>
 
                 <div>

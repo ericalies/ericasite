@@ -1,4 +1,8 @@
 import './App.css'
+import acURL from './assets/AC.jpg'
+import bustURL from './assets/bustlogo1.jpg'
+import sightlinesURL from './assets/Sightlines.jpg'
+import vultureURL from './assets/vulture.png'
 
 function Journalism() {
     return (
@@ -13,7 +17,7 @@ function Journalism() {
             <div className="grid gap-x-8 gap-y-[40px] grid-cols-1 md:grid-cols-[40%_60%]">
 
 
-                <img className="object-scale-down object-right" src="/assets/bustlogo1.jpg"
+                <img className="object-scale-down object-right" src={bustURL}
                      alt="a logo for Bust Magazine, in pink all caps"/>
 
                 <div>
@@ -42,7 +46,7 @@ function Journalism() {
                 </div>
 
 
-                <img className="object-scale-down object-right" src="/assets/vulture.png"
+                <img className="object-scale-down object-right" src={vultureURL}
                      alt="The Vulture logo"/>
                 <div>
                     <h2>Arts & Culture</h2>
@@ -75,7 +79,7 @@ function Journalism() {
                 </div>
 
 
-                <img className="object-scale-down object-right" src="/assets/sightlines.jpg"/>
+                <img className="object-scale-down object-right" src={sightlinesURL}/>
                 <div>
                     <h2>Profiles</h2>
                     <ul className='list-disc'>
@@ -93,7 +97,7 @@ function Journalism() {
                 </div>
 
 
-                <img className="object-scale-down object-right" src="/assets/ac.jpg"/>
+                <img className="object-scale-down object-right" src={acURL}/>
 
                 <div>
                     <h2>Interviews</h2>
