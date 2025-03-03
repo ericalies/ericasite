@@ -1,5 +1,5 @@
 import './App.css'
-import betterMuppetURL from './assets/betterMuppet.PNG'
+import drawingURL from './assets/drawing.png'
 
 function Home() {
     return (
@@ -9,14 +9,14 @@ function Home() {
             <div className="columns-2 mt-10">
                 <img
                     className="max-w-s size-90"
-                    src={betterMuppetURL}
+                    src={drawingURL}
                     alt="A woman with curly hair wearing a polka dotted shirt sits on the floor and smiles at the camera. 
                      Her vibe is best described as muppet."/>
 
                 <div className="h-screen flex items-center">
                     {/* <blockquote className="montserrat-alternates-semibold align-middle mb-[80px]"> */}
 
-                    <h3 className='montserrat-alternates-semibold mb-[200px]'>
+                    <h3 className='montserrat-alternates-semibold'>
                         Erica is a funny writer who always tells the truth (even when she doesn't).</h3>
                     {/* </blockquote> */}
                 </div>
