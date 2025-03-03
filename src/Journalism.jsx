@@ -1,8 +1,8 @@
 import './App.css'
-import acURL from './assets/AC.jpg'
-import bustURL from './assets/bustlogo1.jpg'
+import acURL from './assets/AC.png'
+import bustURL from './assets/bustlogo1.png'
 import sightlinesURL from './assets/Sightlines.jpg'
-import vultureURL from './assets/vulture.png'
+import vultureURL from './assets/vulture.webp'
 
 function Journalism() {
     return (
@@ -14,7 +14,7 @@ function Journalism() {
             </div>
 
 
-            <div className="grid gap-x-8 gap-y-[40px] grid-cols-1 md:grid-cols-[40%_60%]">
+            <div className="grid gap-x-8 gap-y-[60px] grid-cols-1 md:grid-cols-[25%_75%]">
 
 
                 <img className="object-scale-down object-right" src={bustURL}

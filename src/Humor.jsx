@@ -16,7 +16,7 @@ function Humor() {
             <div className="mt-10">
             </div>
 
-            <div className="grid gap-x-8 gap-y-[40px] grid-cols-1 md:grid-cols-[40%_60%]">
+            <div className="grid gap-x-8 gap-y-[60px] grid-cols-1 md:grid-cols-[25%_75%]">
 
                 <img className="object-scale-down object-right" src={walrusURL}
                      alt="An illustration of a Taylor Swift Bracelet for Beatles lovers. The bracelet text reads, It's me, Hi. I'm the Walrus, it's me."/>
