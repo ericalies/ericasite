@@ -6,14 +6,18 @@ function Home() {
         <>
             <blockquote className="montserrat-alternates-bold align-middle"><h1
                 className='montserrat-alternates-regular'>Erica Lies Has a Home (Page)</h1></blockquote>
-            <div className="columns-2 mt-10">
+
+            <div className="mt-20">
+            </div>
+            
+            <div className="grid grid-cols-1 gap-6 md:grid-cols-[40%_50%] justify-center">
                 <img
-                    className="max-w-s size-90"
+                    className=""
                     src={drawingURL}
                     alt="A woman with curly hair wearing a polka dotted shirt sits on the floor and smiles at the camera. 
                      Her vibe is best described as muppet."/>
 
-                <div className="h-screen flex items-center">
+                <div className="content-center">
                     {/* <blockquote className="montserrat-alternates-semibold align-middle mb-[80px]"> */}
 
                     <h3 className='montserrat-alternates-semibold'>
