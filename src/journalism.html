@@ -1,4 +1,4 @@
-<!doctype html>
+<!-- <!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8"/>
@@ -8,5 +8,119 @@
 <body>
 <div id="root"></div>
 <script type="module" src="main.jsx"></script>
+</body>
+</html> -->
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Journalism | Erica Lies</title>
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #d1c2d9;
+      font-family: Avenir, sans-serif;
+      font-size: 20px;
+      margin-left: 10%;
+      margin-right: 5%;
+      color: #332970;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 40px;
+    }
+
+    h2 {
+      color: #005f56;
+      font-size: 30px;
+    }
+
+    blockquote {
+      padding: 1em 2em;
+      background-color: #CCD68F;
+      border-radius: 1em 5em;
+      text-align: center;
+    }
+
+    .styled-link {
+      text-decoration: underline;
+      color: #332970;
+    }
+
+    .montserrat {
+      font-family: "Montserrat Alternates", sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- NAVBAR (replacing Flowbite) -->
+<nav class="flex justify-center space-x-8 py-4">
+  <a href="/" class="styled-link">Home</a>
+  <a href="/about.html" class="styled-link">About</a>
+  <a href="/humor.html" class="styled-link">Humor</a>
+  <a href="/journalism.html" class="styled-link">Journalism</a>
+  <a href="/contact.html" class="styled-link">Contact</a>
+</nav>
+
+<blockquote>
+  <h1 class="montserrat">Selected Journalism</h1>
+</blockquote>
+
+<div class="grid gap-10 mt-10 md:grid-cols-[25%_75%]">
+
+  <img src="/assets/bustlogo1.png" class="object-scale-down" />
+
+  <div>
+    <h2>Selected Features</h2>
+    <ul class="list-disc ml-5 leading-loose">
+      <li><a class="styled-link" href="#">Austin Chronicle</a></li>
+      <li><a class="styled-link" href="#">Bust Magazine</a></li>
+      <li><a class="styled-link" href="#">Splitsider</a></li>
+      <li><a class="styled-link" href="#">Paste Magazine</a></li>
+    </ul>
+  </div>
+
+  <img src="/assets/vulture.webp" />
+
+  <div>
+    <h2>Arts & Culture</h2>
+    <ul class="list-disc ml-5 leading-loose">
+      <li><a class="styled-link" href="#">New York Times</a></li>
+      <li><a class="styled-link" href="#">Vulture</a></li>
+    </ul>
+  </div>
+
+  <img src="/assets/Sightlines.jpg" />
+
+  <div>
+    <h2>Profiles</h2>
+    <ul class="list-disc ml-5 leading-loose">
+      <li><a class="styled-link" href="#">Sightlines</a></li>
+    </ul>
+  </div>
+
+  <img src="/assets/AC.png" />
+
+  <div>
+    <h2>Interviews</h2>
+    <ul class="list-disc ml-5 leading-loose">
+      <li><a class="styled-link" href="#">Austin Chronicle</a></li>
+    </ul>
+  </div>
+
+</div>
+
 </body>
 </html>
