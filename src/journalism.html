@@ -22,7 +22,7 @@
   <!-- Tailwind CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
 
-  <!-- Google Font -->
+  <!-- Font -->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
 
   <style>
@@ -35,9 +35,8 @@
       color: #332970;
     }
 
-    h1 {
-      text-align: center;
-      font-size: 40px;
+    .montserrat {
+      font-family: "Montserrat Alternates", sans-serif;
     }
 
     h2 {
@@ -56,43 +55,41 @@
       text-decoration: underline;
       color: #332970;
     }
-
-    .montserrat {
-      font-family: "Montserrat Alternates", sans-serif;
-    }
   </style>
 </head>
 
 <body>
 
-<!-- NAVBAR (replacing Flowbite) -->
-<nav class="flex justify-center space-x-8 py-4">
+<!-- NAV -->
+<div class="flex justify-center gap-8 py-4">
   <a href="/" class="styled-link">Home</a>
   <a href="/about.html" class="styled-link">About</a>
   <a href="/humor.html" class="styled-link">Humor</a>
   <a href="/journalism.html" class="styled-link">Journalism</a>
   <a href="/contact.html" class="styled-link">Contact</a>
-</nav>
+</div>
 
 <blockquote>
-  <h1 class="montserrat">Selected Journalism</h1>
+  <h1 class="montserrat text-4xl">Selected Journalism</h1>
 </blockquote>
 
-<div class="grid gap-10 mt-10 md:grid-cols-[25%_75%]">
+<div class="mt-10 grid gap-y-16 gap-x-8 md:grid-cols-2">
 
-  <img src="/assets/bustlogo1.png" class="object-scale-down" />
+  <!-- ROW 1 -->
+  <img src="/assets/bustlogo1.png" class="max-w-full h-auto" />
 
   <div>
     <h2>Selected Features</h2>
     <ul class="list-disc ml-5 leading-loose">
-      <li><a class="styled-link" href="#">Austin Chronicle</a></li>
-      <li><a class="styled-link" href="#">Bust Magazine</a></li>
-      <li><a class="styled-link" href="#">Splitsider</a></li>
-      <li><a class="styled-link" href="#">Paste Magazine</a></li>
+      <li><a class="styled-link" href="https://www.austinchronicle.com/...">Austin Chronicle</a></li>
+      <li><a class="styled-link" href="https://bust.com/...">Bust Magazine</a></li>
+      <li><a class="styled-link" href="https://www.vulture.com/...">Splitsider</a></li>
+      <li><a class="styled-link" href="https://www.pastemagazine.com/...">Paste Magazine</a></li>
     </ul>
   </div>
 
-  <img src="/assets/vulture.webp" />
+  <!-- ROW 2 -->
+  <img src="/assets/vulture.webp" class="max-w-full h-auto" />
 
   <div>
     <h2>Arts & Culture</h2>
@@ -102,7 +99,8 @@
     </ul>
   </div>
 
-  <img src="/assets/Sightlines.jpg" />
+  <!-- ROW 3 -->
+  <img src="/assets/Sightlines.jpg" class="max-w-full h-auto" />
 
   <div>
     <h2>Profiles</h2>
@@ -111,7 +109,8 @@
     </ul>
   </div>
 
-  <img src="/assets/AC.png" />
+  <!-- ROW 4 -->
+  <img src="/assets/AC.png" class="max-w-full h-auto" />
 
   <div>
     <h2>Interviews</h2>
