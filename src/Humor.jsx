@@ -131,6 +131,9 @@ function Humor() {
                         <li className='leading-loose'><a
                             href="https://thebelladonnacomedy.com/the-house-of-inner-torment-cdd547b2dcac"
                             className='styled-link'>The House of Inner Torment</a></li>
+                         <li className='leading-loose'><a
+                            href="https://medium.com/thebelladonnacomedy/bridget-joness-migraine-diary-94cc9f05e4c8"
+                            className='styled-link'>Bridge Jones’s Migraine Diary</a></li>
                         <li className='leading-loose'><a
                             href="https://thebelladonnacomedy.com/code-red-they-want-to-tax-break-our-tampons-2116c6e786cb"
                             className='styled-link'>Don't Let Greedy Uteri Bleed Tennessee Dry!</a> - written with
@@ -142,6 +145,10 @@ function Humor() {
                             written
                             with Kerry Elson
                         </li>
+                         <li className='leading-loose'><a
+                            href="https://medium.com/thebelladonnacomedy/what-your-favorite-houseplant-says-about-you-525648418b7f"
+                            className='styled-link'>What Your Favorite Houseplant Says About You</a> -written with Claire Luisa</li>
+                        
                         <li className='leading-loose'><a
                             href="https://medium.com/thebelladonnacomedy/its-not-that-i-m-not-listening-it-s-that-women-s-voices-just-sound-like-squawk-squawk-squawk-3b180e9ea2be"
                             className='styled-link'>It's Not That I'm Not Listening, It's That Women's Voices Just
