@@ -11,7 +11,7 @@ function Humor() {
     return (
         <>
             <blockquote className="montserrat-alternates-bold align-middle"><h1
-                className='montserrat-alternates-regular'>Selected Humor & Satire.</h1></blockquote>
+                className='montserrat-alternates-regular'>Selected Humor & Satire</h1></blockquote>
 
             <div className="mt-10">
             </div>
