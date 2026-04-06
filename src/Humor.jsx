@@ -110,6 +110,10 @@ function Humor() {
                             className='styled-link'>What Your Myers Briggs Type Says ABout Whether You'll Take the
                             Myers
                             Briggs Test</a></li>
+                         </li>
+                        <li className='leading-loose'><a
+                            href="https://www.mcsweeneys.net/articles/trolli-gummi-pops"
+                            className='styled-link'>Reviews of New Food: Trolli Gummi Pops</a></li>
 
 
                     </ul>
