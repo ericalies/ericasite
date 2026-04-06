@@ -113,7 +113,7 @@ function Humor() {
                             href="https://www.mcsweeneys.net/articles/what-your-myers-briggs-type-says-about-whether-youll-take-the-myers-briggs-test"
                             className='styled-link'>What Your Myers Briggs Type Says ABout Whether You'll Take the
                             Myers
-                            Briggs Test</a></li>  </li>
+                            Briggs Test</a></li> 
                         
 
 
