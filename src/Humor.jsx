@@ -133,7 +133,7 @@ function Humor() {
                             className='styled-link'>The House of Inner Torment</a></li>
                          <li className='leading-loose'><a
                             href="https://medium.com/thebelladonnacomedy/bridget-joness-migraine-diary-94cc9f05e4c8"
-                            className='styled-link'>Bridge Jones’s Migraine Diary</a></li>
+                            className='styled-link'>Bridget Jones’s Migraine Diary</a></li>
                         <li className='leading-loose'><a
                             href="https://thebelladonnacomedy.com/code-red-they-want-to-tax-break-our-tampons-2116c6e786cb"
                             className='styled-link'>Don't Let Greedy Uteri Bleed Tennessee Dry!</a> - written with
@@ -192,6 +192,9 @@ function Humor() {
                             href="https://www.pointsincase.com/lists/password-recovery-questions-written-by-beth-your-high-school-frenemy"
                             className='styled-link'>Password Recovery Questions Written by Beth, Your High School
                             Frenemy</a></li>
+                        <li className='leading-loose'><a
+                            href="https://www.pointsincase.com/articles/the-right-way-to-wash-your-face-according-to-tiktok"
+                            className='styled-link'>The Right Way to Wash Your Face According to TiKTok</a></li>
                     </ul>
 
                 </div>
