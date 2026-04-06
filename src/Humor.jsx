@@ -89,6 +89,10 @@ function Humor() {
                             className='styled-link'>FAQ: Your Visit to Flow State</a> - written with Caitlin
                             Kunkel
                         </li>
+                       
+                        <li className='leading-loose'><a
+                            href="https://www.mcsweeneys.net/articles/trolli-gummi-pops"
+                            className='styled-link'>Reviews of New Food: Trolli Gummi Pops</a></li>
                         <li className='leading-loose'><a
                             href="https://www.mcsweeneys.net/articles/this-is-not-a-breakup-its-a-pivot-toward-life-without-denise"
                             className='styled-link'>This is Not a "Breakup," It's a Pivot Toward Life Without
@@ -109,11 +113,8 @@ function Humor() {
                             href="https://www.mcsweeneys.net/articles/what-your-myers-briggs-type-says-about-whether-youll-take-the-myers-briggs-test"
                             className='styled-link'>What Your Myers Briggs Type Says ABout Whether You'll Take the
                             Myers
-                            Briggs Test</a></li>
-                         </li>
-                        <li className='leading-loose'><a
-                            href="https://www.mcsweeneys.net/articles/trolli-gummi-pops"
-                            className='styled-link'>Reviews of New Food: Trolli Gummi Pops</a></li>
+                            Briggs Test</a></li>  </li>
+                        
 
 
                     </ul>
