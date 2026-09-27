@@ -78,6 +78,10 @@ function Humor() {
 
                     <h2>McSweeney's Internet Tendency</h2>
                     <ul className='list-disc'>
+                       <li className='leading-loose'><a
+                            href="https://www.mcsweeneys.net/articles/my-annual-performance-as-reviewed-by-my-dog"
+                            className='styled-link'>My Annual Performance, as Reviewed by My Dog</a> 
+                        </li>
                         <li className='leading-loose'><a
                             href="https://www.mcsweeneys.net/articles/if-zeus-had-instagram"
                             className='styled-link'>If
